@@ -10,7 +10,7 @@ namespace CompAndDel.Filters
         public IPicture Filter(IPicture image)
         {
             TwitterImage twitter = new TwitterImage();
-            Console.WriteLine(twitter.PublishToTwitter("condicional1", @"filteredpicture.jpg"));
+            Console.WriteLine(twitter.PublishToTwitter("Pilar Machado", @"filteredpicture.jpg"));
             return image;
         }
 
